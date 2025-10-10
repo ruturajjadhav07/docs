@@ -2,6 +2,7 @@
 Title: 'Operators'
 Description: 'Operators are symbols used to operate on variables and values across different data types.'
 Subjects:
+  - 'Code Foundations'
   - 'Computer Science'
 Tags:
   - 'Operators'
@@ -109,15 +110,11 @@ int bitwiseLeftShift = a << b;
 
 ## Logical Operators
 
-Logical operators are used to combine multiple boolean expressions or values. They return a boolean result (`true` or `false`).
+Logical operators are used to combine multiple boolean expressions or values. They evaluate to a boolean result either `true` or `false`. The types of logical operators in Java are:
 
-### Operators
-
-- `&&` Logical AND – returns true if **both** expressions are true.
-
-- `||` Logical OR – returns true if **any** expression is true.
-
-- `!` Logical NOT – reverses the result (true → false).
+- `&&` Logical AND: Returns `true` if **both** expressions are true.
+- `||` Logical OR: Returns `true` if **any** expression is true.
+- `!` Logical NOT: Reverses the boolean value of an expression (`true` → `false`, and vice versa).
 
 ```java
 int a = 10;
